@@ -29,7 +29,7 @@ flowchart TD
 ```mermaid
 flowchart TD
   A[Inital Dataset] --> B[Pre-Processed Dataset];
-  B ----> C[Pre-processed Dataset];
+  B ----> C[Data Splitting];
   C ----> D[Training set];
   C -- --> E[Test set];
   D ----> F[Cross-Validation Model];
