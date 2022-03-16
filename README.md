@@ -35,6 +35,7 @@ flowchart TD
     train --Hyperparameter Optimization--> E[Cross-Validation Model]
     train --> trained[Trained Model]
     test --> trained[Trained Model]
+    trained --> predicted[Predicted Y values]
 ```
 
 ### Reference
