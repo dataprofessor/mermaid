@@ -32,7 +32,7 @@ flowchart TD
     data2 --> split[Data Splitting]
     split --> train[Training Set]
     split --> test[Test Set]
-    train --Learning Algorithms, Hyperparameter Optimization--> E[Cross-Validation Model]
+    train --Hyperparameter Optimization--> E[Cross-Validation Model]
     train --> trained[Trained Model]
     test --> trained[Trained Model]
 ```
