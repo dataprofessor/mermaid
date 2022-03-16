@@ -28,7 +28,7 @@ flowchart TD
 
 ```mermaid
 flowchart TD
-  A[Inital Dataset] --Data cleaning--> B[Pre-Processed Dataset];
+  A[Inital Dataset] --Data cleaning--Data curation--> B[Pre-Processed Dataset];
   B ----> C[Data Splitting];
   C ----> D[Training set];
   C ----> E[Test set];
