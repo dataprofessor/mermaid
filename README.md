@@ -14,7 +14,6 @@ Here's a simple example:
       B-->D;
       C-->D;
 ```
-```
 
 ...
 
