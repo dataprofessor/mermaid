@@ -5,6 +5,17 @@
 
 ### Simple examples
 Here's a simple example:
+
+```markdown
+```mermaid
+  graph TD;
+      A-->B;
+      A-->C;
+      B-->D;
+      C-->D;
+```
+```
+
 ```mermaid
   graph TD;
       A-->B;
