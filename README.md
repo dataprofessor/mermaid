@@ -24,7 +24,7 @@ flowchart TD
   D ----> E[Enjoy your weekend!];
 ```
 
-# Workflow example
+### Workflow example
 
 ```mermaid
 flowchart TD
