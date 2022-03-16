@@ -1,7 +1,9 @@
 # mermaid
 
-Mermaid allows the creation of diagrams using Markdown syntax.
+### What is mermaid?
+`Mermaid` allows the creation of diagrams using Markdown syntax.
 
+### Simple examples
 Here's a simple example:
 ```mermaid
   graph TD;
@@ -20,6 +22,19 @@ flowchart TD
   B --No --> D[Run deploy.sh to deploy!];
   C ----> E[Enjoy your weekend!];
   D ----> E[Enjoy your weekend!];
+```
+
+# Workflow example
+
+```mermaid
+flowchart TD
+  A[Inital Dataset] --> B{Pre-processed Dataset};
+  B --Data Splitting--> C[Training set];
+  B --Data Splitting --> D[Test set];
+  C ----> E[Cross-Validation Model];
+  C ----> F[Trained Model];
+  D ----> F[Trained Model];
+  F ----> G[Predicted Y values];
 ```
 
 ### Reference
