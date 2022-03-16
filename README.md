@@ -4,7 +4,8 @@
 `Mermaid` allows the creation of diagrams using Markdown syntax.
 
 ### Simple examples
-Here's a simple example:
+
+1. Here's a simple example:
 
 ```mermaid
   graph TD;
@@ -14,7 +15,7 @@ Here's a simple example:
       C-->D;
 ```
 
-The diagram can be much more elaborate as well:
+2. The diagram can be much more elaborate as well:
 
 ```mermaid
 flowchart TD
@@ -25,7 +26,7 @@ flowchart TD
   D ----> E[Enjoy your weekend!];
 ```
 
-### Workflow example
+3. Yet another example
 
 ```mermaid
 flowchart TD
