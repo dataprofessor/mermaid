@@ -16,6 +16,8 @@ Here's a simple example:
 ```
 ```
 
+...
+
 ```mermaid
   graph TD;
       A-->B;
