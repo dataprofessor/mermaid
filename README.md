@@ -39,6 +39,7 @@ flowchart TD
 ```
 
 ### Reference
-Examples shown here are taken from:
-- [Include diagrams in your Markdown files with Mermaid
+- Examples shown here are taken from: [Include diagrams in your Markdown files with Mermaid
 ](https://github.blog/2022-02-14-include-diagrams-markdown-files-mermaid/)
+- [Mermaid Live Editor](https://mermaid-js.github.io/mermaid-live-editor/)
+- [Mermaid Docs](https://mermaid-js.github.io/mermaid/#/)
