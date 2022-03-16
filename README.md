@@ -6,20 +6,6 @@
 ### Simple examples
 Here's a simple example:
 
-```markdown
-```mermaid
-  graph TD;
-      A-->B;
-      A-->C;
-      B-->D;
-      C-->D;
-```
-```
-
-
-
-The following is the output:
-
 ```mermaid
   graph TD;
       A-->B;
