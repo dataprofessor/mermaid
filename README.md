@@ -14,8 +14,11 @@ Here's a simple example:
       B-->D;
       C-->D;
 ```
+```
 
-...
+
+
+The following is the output:
 
 ```mermaid
   graph TD;
