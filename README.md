@@ -29,7 +29,7 @@ flowchart TD
 ```mermaid
 flowchart TD
     data[(Initial Dataset)] --Data Pre-Processing-->  data2[(Curated Dataset)]
-    data2 --> split[Data Splitting]
+    data2 --> split{Data Splitting}
     split --> train[Training Set]
     split --> test[Test Set]
     train --Hyperparameter Optimization--> E[Cross-Validation Model]
