@@ -28,13 +28,14 @@ flowchart TD
 
 ```mermaid
 flowchart TD
-  A[Inital Dataset] --> B{Pre-processed Dataset};
-  B --Data Splitting--> C[Training set];
-  B --Data Splitting --> D[Test set];
-  C ----> E[Cross-Validation Model];
-  C ----> F[Trained Model];
-  D ----> F[Trained Model];
-  F ----> G[Predicted Y values];
+  A[Inital Dataset] --> B[Pre-Processed Dataset];
+  B ----> C[Pre-processed Dataset];
+  C ----> D[Training set];
+  C -- --> E[Test set];
+  D ----> F[Cross-Validation Model];
+  D ----> G[Trained Model];
+  E ----> G[Trained Model];
+  G ----> H[Predicted Y values];
 ```
 
 ### Reference
